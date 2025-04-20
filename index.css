@@ -1,0 +1,136 @@
+body {
+    background-color: #282726;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid magenta; */
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #F9F4DA;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8E8E8E;
+    font-size: 0.875rem;
+}
+
+.displayContainer {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    /* padding: 0.8em; */
+    border-radius: 4px;
+    margin-bottom: 4em;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayContainer p {
+    color: #F9F4DA;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.displayContainer h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+}
+
+.languages {
+    display: flex;
+    width: 80%;
+    /* border: 2px solid magenta; */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0.3em;
+}
+
+.languages div {
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+    /**/
+    position: relative;
+}
+
+.ghost {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    font-size: large;   
+}
+
+.ghost-not-visible {
+    display: none;
+}
+
+.displayWord {
+    /* border: 2px solid magenta; */
+    display: flex;
+    gap: 0.2em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.displayWord p {
+    /* border: 2px solid magenta; */
+    padding: 0.8em 1em;
+    background-color: #323232;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #F9F4DA;
+    border-bottom: 1px solid #F9F4DA;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4em;
+    margin-top: 3em;
+}
+
+
+.keyboard button {
+    background-color: #FCBA29;
+    border: 1px solid #D7D7D7;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.new-game-btn {
+    background-color: #11B5E5;
+    border: 1px solid #D7D7D7;
+    font-weight: bold;
+    padding: 0.5em 2.5em;
+    margin-top: 2em;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+}
